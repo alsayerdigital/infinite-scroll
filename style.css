@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Cairo', sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.loader{
+    position: fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom: 0px;
+    background-color: rgba(255,255,255,.6);
+}
+
+.loader img{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
