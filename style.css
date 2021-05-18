@@ -36,6 +36,14 @@ h1{
     width: 100%;
     margin-top: 20px;
 }
+.alert{
+    position: fixed;
+    bottom: 0px;
+    right:0px;
+    padding: 0px 10px;
+    background-color: rgba(0,0,0,.6);
+    color: #fff;
+}
 
 @media screen and (max-width: 600px){
         h1{font-size: 1.5rem;}
