@@ -4,17 +4,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infinite Scroll</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
 
 </head>
 <body>
-   <h1>Infinite Scroll</h1> 
+
+   <h1>Infinite Scroll</h1>
+   
+   <label class="switch">
+    <input type="checkbox"  id="theme">
+    <span class="slider round"></span>
+  </label>
+
+  
    <div class="loader" id="loader" >
-       <img src="loader.svg" alt="Loading">
+       <!-- <img src="loader.svg" alt="Loading"> -->
    </div>
    <div class="img-container" id="img-container">
     <div class="alert" id="alertBox" hidden></div>
    </div>
-   <script src="script.js"></script>
+   <script src="./dist/bundle.js"></script>
+   <!-- <script src="./script.js"></script> -->
 </body>
 </html>
